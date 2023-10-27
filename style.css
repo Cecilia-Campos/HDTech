@@ -156,7 +156,7 @@ main {
 }
 /*  ================== PRODUCTS ==================*/
 #products {
-	padding: 70px 20px;
+	padding: 40px 20px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -174,7 +174,6 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
-	align-items: center;
 	justify-content: center;
 	padding: 30px 0px;
 	max-width: 1200px;
@@ -186,9 +185,14 @@ main {
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	gap: 20px;
 	max-width: 350px;
+	justify-content: center;
+}
+
+.product-img {
+	height: 180px;
+	text-align: center;
 }
 
 .products-info {
@@ -210,15 +214,17 @@ main {
 	font-size: var(--font-sm);
 	color: var(--text-gray);
 	font-weight: var(--font-semibold);
+	justify-content: baseline;
 	align-items: center;
 	padding: 0px 10px;
+	height: 50px;
 }
 
 .product-bot {
 	font-size: var(--font-sm);
 	text-align: center;
 	display: flex;
-	justify-content: center;
+	justify-content: baseline;
 	align-items: center;
 }
 
@@ -231,61 +237,24 @@ main {
 	width: 400px;
 }
 
-/* .products__info {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	color: var(--text-white);
-	gap: 10px;
-	max-width: 200px;
-	padding: 10px;
-}
-
-.products_bottom {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.btn-comprar {
-	font-size: var(--font-sm);
-	color: var(--text-gray);
-	background-color: var(--background-nav);
-	padding: 10px 35px;
-	border-radius: 5px;
-	text-align: center;
-	cursor: pointer;
-}
-
-.products__image {
-	display: flex;
-	justify-content: center;
-} */
-
 .product img {
 	width: 100%;
 }
 
-/* .products__container2 {
-	background: var(--background);
-	padding: 20px;
+.product4-img,
+.product5-img,
+.product6-img {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap: 20px;
+	justify-content: center;
+	height: 250px;
+	text-align: center;
 }
 
-.products__info2 {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	align-items: center;
+.product4-img img,
+.product6-img img {
 	text-align: center;
-	color: var(--text-white);
-	gap: 10px;
-	max-width: 200px;
-	padding: 10px;
-} */
+	width: 80%;
+}
 
 /*  ================== BENEFICIOS ==================*/
 #beneficios {
