@@ -265,6 +265,7 @@ main {
 	align-items: center;
 	justify-content: space-around;
 	gap: 20px;
+	width: 100%;
 }
 
 .beneficios-icons {
@@ -284,10 +285,10 @@ main {
 	text-align: center;
 }
 
-.beneficios__envíos,
+.beneficios__envios,
 .beneficios__precio,
-.beneficios__garantía,
-.beneficios__atención {
+.beneficios__garantia,
+.beneficios__atencion {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
