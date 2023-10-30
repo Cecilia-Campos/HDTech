@@ -17,8 +17,12 @@
 		width: 25px;
 	}
 
+	.header {
+		padding: 0 30px;
+	}
+
 	.navbar {
-		gap: 40px;
+		gap: 30px;
 	}
 
 	.navbar__menu {
