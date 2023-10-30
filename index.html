@@ -8,6 +8,7 @@
 		<link
 			rel="stylesheet"
 			href="path/to/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="mediaqueries.css" />
 	</head>
 	<body>
 		<header class="header">
@@ -52,6 +53,11 @@
 					</h1>
 					<p>La más grande en peso ligero.</p>
 					<a href="#" class="btn">COMPRAR</a>
+				</div>
+				<div class="hero-img">
+					<img
+						src="./assets:img/hero/hero-Macbook Air 15.png"
+						alt="Macbook Air 15" />
 				</div>
 			</section>
 
@@ -210,7 +216,7 @@
 				<div class="beneficios__envios">
 					<div class="beneficios-icons">
 						<img
-							src=".//assets:img/beneficios/envios-icon.png"
+							src="./assets:img/beneficios/envios-icon.png"
 							alt="envíos a domicilio" />
 					</div>
 
@@ -253,6 +259,113 @@
 			</section>
 		</main>
 
-		<footer id="footer"></footer>
+		<section id="contacto">
+			<div class="contacto">
+				<p>CONTACTANOS</p>
+				<div>
+					<input
+						placeholder="Nombre"
+						type="text"
+						tabindex="1"
+						required
+						autofocus />
+				</div>
+				<div>
+					<input
+						placeholder="Email Address"
+						type="email"
+						tabindex="2"
+						required />
+				</div>
+				<div>
+					<input placeholder="Teléfono" type="tel" tabindex="3" required />
+				</div>
+				<div class="textarea">
+					<textarea
+						placeholder="Escribe tu mensaje...."
+						tabindex="5"
+						required></textarea>
+				</div>
+				<div>
+					<button
+						name="submit"
+						type="submit"
+						id="contact-submit"
+						data-submit="...Sending">
+						Submit
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<div class="divisor"></div>
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="footer-company">
+				<div class="footer__logo">
+					<img src="./assets:img/HDTech_logo.png" alt="HDTech_logo" />
+				</div>
+				<div class="footer-direccion">
+					<img
+						src="./assets:img/footer/image-removebg-preview (1).png"
+						alt="location-icon" />
+					<p>Ciudad de Buenos Aires, Argentina</p>
+				</div>
+				<div class="footer-email">
+					<img src="./assets:img/footer/email.png" alt="email-icon" />
+					<p>info@hdtech.com.ar</p>
+				</div>
+			</div>
+			<div class="footer-productos">
+				<p>PRODUCTOS</p>
+				<ul class="footer-links">
+					<li><a href="#">Ofertas</a></li>
+					<li><a href="#">Novedades</a></li>
+					<li><a href="#">Los más vendidos</a></li>
+				</ul>
+			</div>
+			<div class="footer-empresa">
+				<p>NUESTRA EMPRESA</p>
+				<ul class="footer-links">
+					<li><a href="#">Envíos</a></li>
+					<li><a href="#">Términos y condiciones</a></li>
+					<li><a href="#">Mapa del sitio</a></li>
+				</ul>
+			</div>
+			<!-- CONTACTO -->
+			<!-- <div class="footer-contacto">
+				<p>CONTACTANOS</p>
+				<div>
+					<input
+						placeholder="Nombre"
+						type="text"
+						tabindex="1"
+						required
+						autofocus />
+				</div>
+				<div>
+					<input placeholder="Email Address" type="email" tabindex="2" required />
+				</div>
+				<div>
+					<input placeholder="Teléfono" type="tel" tabindex="3" required />
+				</div>
+				<div>
+					<textarea
+						placeholder="Escribe tu mensaje...."
+						tabindex="5"
+						required></textarea>
+				</div>
+				<div>
+					<button
+						name="submit"
+						type="submit"
+						id="contact-submit"
+						data-submit="...Sending">
+						Submit
+					</button>
+				</div>
+				</ul>
+			</div> -->
+		</footer>
 	</body>
 </html>
