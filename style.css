@@ -204,7 +204,7 @@ main {
 
 .product {
 	background: var(--background-nav);
-	padding: 10px;
+	padding: 40px 10px;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
@@ -335,6 +335,54 @@ main {
 	width: 50%;
 }
 
+/* <!-- CONTACTO --> */
+
+#contacto {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 30px 20px;
+}
+
+.contacto {
+	max-width: 800px;
+	width: 100%;
+	padding: 10px 30px;
+	border: 1px solid #c9c8c8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contacto input {
+	width: 100%;
+	border: 1px solid var(--text-gray);
+	background: #fff;
+	margin: 0 0 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.contacto textarea {
+	height: 100px;
+	width: 100%;
+	border: 1px solid var(--text-gray);
+	background: #fff;
+	margin: 0 0 5px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.contacto button {
+	cursor: pointer;
+	color: var(--text-white);
+	background-color: var(--background);
+	padding: 8px 20px;
+	border-radius: 8px;
+}
+
 /*  ================== FOOTER ==================*/
 #footer {
 	padding: 10px 30px;
@@ -388,52 +436,4 @@ main {
 	flex-direction: column;
 	gap: 10px;
 	max-width: 350px;
-}
-
-/* <!-- CONTACTO --> */
-
-#contacto {
-	max-width: 1200px;
-	margin: 0 auto;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-}
-
-.contacto {
-	max-width: 800px;
-	width: 100%;
-	padding: 10px 30px;
-	border: 1px solid #c9c8c8;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.contacto input {
-	width: 100%;
-	border: 1px solid var(--text-gray);
-	background: #fff;
-	margin: 0 0 5px;
-	padding: 10px;
-	border-radius: 5px;
-}
-
-.contacto textarea {
-	height: 100px;
-	width: 100%;
-	border: 1px solid var(--text-gray);
-	background: #fff;
-	margin: 0 0 5px;
-	padding: 15px;
-	border-radius: 5px;
-}
-
-.contacto button {
-	cursor: pointer;
-	color: var(--text-white);
-	background-color: var(--background);
-	padding: 8px 20px;
-	border-radius: 8px;
 }
