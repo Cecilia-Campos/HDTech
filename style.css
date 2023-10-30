@@ -163,9 +163,9 @@ main {
 	-webkit-background-clip: text;
 }
 
-.hero-img {
+/* .hero-img {
 	padding: 0px 0px 0px 20px;
-}
+} */
 
 .hero-info p {
 	font-size: var(--font-sm);
