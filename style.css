@@ -44,6 +44,7 @@ body {
 .menu-label {
 	display: none;
 }
+
 .header {
 	background: var(--background-nav);
 	display: flex;
@@ -59,7 +60,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 1800px;
+	max-width: 1200px;
 	gap: 5rem;
 }
 
@@ -126,7 +127,8 @@ main {
 /*  ================== HERO ==================*/
 #hero {
 	margin-top: 20px;
-	max-width: 1800px;
+	/* max-width: 1200px; */
+	margin: 0 auto;
 	width: 100%;
 	height: 480px;
 	display: flex;
@@ -135,13 +137,18 @@ main {
 	justify-content: center;
 }
 
+.hero-container {
+	background: var(--background);
+	display: flex;
+	align-items: center;
+}
+
 .hero-info {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
 	width: 50%;
-	padding: 0px 0px 0px 100px;
 }
 
 .hero-info h1 {
@@ -182,7 +189,8 @@ main {
 	justify-content: space-around;
 	gap: 10px;
 	background: var(--background-nav);
-	max-width: 1800px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .products-container {
@@ -286,7 +294,8 @@ main {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-	max-width: 1800px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .beneficios-icons {
@@ -383,6 +392,7 @@ main {
 
 #contacto {
 	max-width: 1200px;
+	margin: 0 auto;
 	width: 100%;
 	display: flex;
 	justify-content: center;
