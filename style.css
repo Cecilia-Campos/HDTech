@@ -337,8 +337,8 @@ main {
 #footer {
 	padding: 10px 30px;
 	display: flex;
-	/* justify-content: space-between; */
-	/* align-items: center; */
+	justify-content: space-around;
+	align-items: center;
 	flex-wrap: wrap;
 	background: var(--background);
 	gap: 80px;

@@ -59,6 +59,7 @@
 		align-items: flex-start;
 		gap: 30px;
 		max-width: 400px;
+		margin: 0 auto;
 		width: 50%;
 		padding: 0px 50px;
 	}
@@ -81,6 +82,7 @@
 	/*  ================== BENEFICIOS ==================*/
 	#beneficios {
 		max-width: 992px;
+		margin: 0 auto;
 		width: 100%;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -148,6 +150,7 @@
 		align-items: center;
 		text-align: center;
 		max-width: 578px;
+		margin: 0 auto;
 		width: 100%;
 	}
 
