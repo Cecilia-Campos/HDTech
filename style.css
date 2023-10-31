@@ -234,6 +234,16 @@ main {
 	padding: 0px 10px;
 }
 
+.product-price span {
+	font-weight: var(--font-bold);
+	font-size: 1.3rem;
+}
+
+.product-price p {
+	color: green;
+	font-weight: var(--font-semibold);
+}
+
 .product-name {
 	font-size: var(--font-sm);
 	color: var(--text-gray);
@@ -358,7 +368,7 @@ main {
 
 .contacto input {
 	width: 100%;
-	border: 1px solid var(--text-gray);
+	border: 1px solid #c9c8c8;
 	background: #fff;
 	margin: 0 0 5px;
 	padding: 10px;
@@ -368,7 +378,7 @@ main {
 .contacto textarea {
 	height: 100px;
 	width: 100%;
-	border: 1px solid var(--text-gray);
+	border: 1px solid #c9c8c8;
 	background: #fff;
 	margin: 0 0 5px;
 	padding: 15px;

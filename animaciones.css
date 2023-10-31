@@ -1,0 +1,20 @@
+/* --- ANIMACIÓN HERO--- */
+
+.hero-img img:hover {
+	transform: scale(1.1);
+	transition: all 0.3s linear;
+}
+
+/* --- ANIMACIÓN PRODUCTOS--- */
+
+.product img:hover {
+	transform: scale(1.1);
+	transition: all 0.3s linear;
+}
+
+/* --- ANIMACIÓN BENEFICIOS--- */
+
+.beneficios-icons img:hover {
+	transform: scale(1.2);
+	transition: all 0.3s linear;
+}
