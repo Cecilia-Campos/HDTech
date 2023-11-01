@@ -4,14 +4,16 @@ html {
 
 /* --- ANIMACIÓN HERO--- */
 
-.hero-img img {
-	cursor: pointer;
-	transition: all 0.5s;
-}
+@media (min-width: 993px) {
+	.hero-img img {
+		cursor: pointer;
+		transition: all 0.5s;
+	}
 
-.hero-img img:hover {
-	transform: scale(1.1);
-	transition: all 0.5s;
+	.hero-img img:hover {
+		transform: scale(1.1);
+		transition: all 0.5s;
+	}
 }
 
 @keyframes fadeIn {

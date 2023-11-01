@@ -1,3 +1,17 @@
+/* --- ANIMACIÓN HERO--- */
+
+@media (min-width: 993px) {
+	.hero-img img {
+		cursor: pointer;
+		transition: all 0.5s;
+	}
+
+	.hero-img img:hover {
+		transform: scale(1.1);
+		transition: all 0.5s;
+	}
+}
+
 /* Tablet */
 @media (max-width: 992px) {
 	/*  ================== MAIN ==================*/
@@ -71,18 +85,6 @@
 
 	.hero-img img {
 		max-width: 500px;
-	}
-
-	.hero-img img {
-		cursor: pointer;
-		transition-property: none;
-		transition-duration: 0s;
-	}
-
-	.hero-img img:hover {
-		transform: none;
-		transition-property: none;
-		transition-duration: 0s;
 	}
 
 	/*  ================== PRODUCTS ==================*/
