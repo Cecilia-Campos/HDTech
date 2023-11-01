@@ -28,9 +28,8 @@
 	.navbar__menu {
 		position: absolute;
 		top: 90px;
-		width: 40%;
-		/* left: 5%;
-		right: 5%; */
+		width: 20%;
+		right: 0%;
 		flex-direction: column;
 		align-items: center;
 		background-color: var(--background-nav);
@@ -38,6 +37,7 @@
 		border-top: 0;
 		padding: 20px 30px;
 		display: none;
+		gap: 20px;
 	}
 
 	#menu-toggle:checked ~ .navbar__menu {
@@ -71,6 +71,18 @@
 
 	.hero-img img {
 		max-width: 500px;
+	}
+
+	.hero-img img {
+		cursor: pointer;
+		transition-property: none;
+		transition-duration: 0s;
+	}
+
+	.hero-img img:hover {
+		transform: none;
+		transition-property: none;
+		transition-duration: 0s;
 	}
 
 	/*  ================== PRODUCTS ==================*/

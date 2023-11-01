@@ -1,20 +1,60 @@
+html {
+	scroll-behavior: smooth;
+}
+
 /* --- ANIMACIÓN HERO--- */
+
+.hero-img img {
+	cursor: pointer;
+	transition: all 0.5s;
+}
 
 .hero-img img:hover {
 	transform: scale(1.1);
-	transition: all 0.3s linear;
+	transition: all 0.5s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 /* --- ANIMACIÓN PRODUCTOS--- */
 
+.product img {
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
 .product img:hover {
 	transform: scale(1.1);
-	transition: all 0.3s linear;
+	transition: all 0.5s;
+}
+
+/* --- ANIMACIÓN PRODUCTOS--- */
+.btn,
+.btn-comprar {
+	cursor: pointer;
+}
+
+.btn:hover,
+.btn-comprar:hover {
+	background-color: #6f2cc7;
+	transition: all 0.5s;
 }
 
 /* --- ANIMACIÓN BENEFICIOS--- */
 
+.beneficios-icons img {
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
 .beneficios-icons img:hover {
 	transform: scale(1.2);
-	transition: all 0.3s linear;
+	transition: all 0.5s;
 }
