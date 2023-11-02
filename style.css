@@ -133,10 +133,6 @@ body {
 
 main {
 	padding-top: 65px;
-	/* display: flex; */
-	/* flex-direction: column;
-	justify-content: center;
-	align-items: center; */
 }
 
 .divisor-main,
@@ -163,7 +159,6 @@ main {
 
 /*  ================== HERO ==================*/
 #hero {
-	/* margin-top: 20px; */
 	width: 100%;
 	height: 450px;
 	display: flex;
@@ -262,6 +257,7 @@ main {
 	gap: 20px;
 	max-width: 350px;
 	justify-content: center;
+	align-items: center;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -342,14 +338,14 @@ main {
 .product6-img {
 	display: flex;
 	justify-content: center;
-	height: 250px;
+	height: 180px;
 	text-align: center;
 }
 
 .product4-img img,
+.product5-img img,
 .product6-img img {
-	text-align: center;
-	width: 80%;
+	width: 85%;
 }
 
 /*  ================== BENEFICIOS ==================*/
