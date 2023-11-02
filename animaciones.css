@@ -25,6 +25,23 @@ html {
 	}
 }
 
+@keyframes slide-right {
+	from {
+		transform: translateX(100px);
+	}
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+/* Animación hero-img */
+.hero-img {
+	opacity: 0;
+	animation: fadeIn 1s ease-in forwards, slide-right 1.2s ease-in-out;
+	animation-delay: 0.2s;
+}
+
 /* --- ANIMACIÓN PRODUCTOS--- */
 
 .product img {
@@ -39,12 +56,12 @@ html {
 
 /* --- ANIMACIÓN PRODUCTOS--- */
 .btn,
-.btn-comprar {
+.product-bot {
 	cursor: pointer;
 }
 
 .btn:hover,
-.btn-comprar:hover {
+.product-bot:hover {
 	background-color: #6f2cc7;
 	transition: all 0.5s;
 }
